@@ -1,9 +1,9 @@
 pipeline {
 	agent any
 		stages {
-			stage('Build') {
+			stage('build') {
 				steps {
-					cat 'README.md'
+					sh "npm --version"
 				}
 			}
 		}
