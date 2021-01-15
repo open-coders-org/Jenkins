@@ -5,6 +5,7 @@ pipeline {
 				steps {
 					sh "node --version"
 					sh "cat README.md"
+					sh "npm --version"
 				}
 			}
 		}
