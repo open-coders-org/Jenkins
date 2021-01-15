@@ -6,7 +6,7 @@ pipeline {
 					sh "node --version"
 					sh "cat README.md"
 					sh "npm --version"
-					sh "pm2 index.js"
+					sh "pm2 start index.js"
 				}
 			}
 		}
