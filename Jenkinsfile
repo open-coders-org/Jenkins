@@ -6,6 +6,7 @@ pipeline {
 					sh "node --version"
 					sh "cat README.md"
 					sh "npm --version"
+					sh "npm start"
 				}
 			}
 		}
